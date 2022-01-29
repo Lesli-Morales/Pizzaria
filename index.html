@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizzeria</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+        
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header class="hero">
+                <h1>Ordena tu Pizza Ahora</h1>
+                <button class="hero-btn">Ordenar</button>
+                <div class="hero-info" id="hero-info">
+                    <h3 class="hero-leyenda">La mejor pizza que tu paladar podría probar</h3>
+                </div>
+                <a href="#menus"><i class="bi bi-arrow-down-circle"></i></a>
+            </header>
+
+
+        <section class="menus" id="menus">
+            <h2>MENÚ</h2>
+            <button class="btn-menus" id="btn1" onclick="activar()">Especialidades</button>
+            <button class="btn-menus" id="btn2" onclick="activar2()">Tradicionales</button>
+            <button class="btn-menus" id="btn3" onclick="activar3()">De la casa</button>
+
+            <div class="menus-container">
+                <div class="menu-1" id="menu1">
+                    <h3 class="menus-tipos">ESPECIALES</h3>
+                    <div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard2.jpg" alt="Pizza">
+                            <h3>Pizza especial individual</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard2.jpg" alt="Pizza">
+                            <h3>Pizza especial mediana</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard2.jpg" alt="Pizza">
+                            <h3>Pizza especial familiar</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="menu-2" id="menu2">
+                    <h3 class="menus-tipos">TRADICIONALES</h3>
+                    <div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard.webp" alt="Pizza">
+                            <h3>Pizza tradicional individual</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard.webp" alt="Pizza">
+                            <h3>Pizza tradicional mediana</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard.webp" alt="Pizza">
+                            <h3>Pizza tradicional familiar</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-3" id="menu3">
+                    <h3 class="menus-tipos">DE LA CASA</h3>
+                    <div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard3.jpg" alt="Pizza">
+                            <h3>Pizza de la casa individual </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard3.jpg" alt="Pizza">
+                            <h3>Pizza de la casa mediana </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                        <div class="menu">
+                            <img src="imagenes/pizzaCard3.jpg" alt="Pizza">
+                            <h3>Pizza de la casa familiar </h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p>$</p>
+                            <button>Ordenar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="novedades">
+            
+        </section>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
