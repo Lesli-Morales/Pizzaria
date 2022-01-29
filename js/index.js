@@ -23,3 +23,8 @@ const activar3 = () => {
     divmenu2.classList.add("activar")
     divmenu1.classList.add("activar")
 }
+
+
+const ordernar = () => {
+    alert("Esto es solo un demo por lo que no se puede ordenar aún :)")
+}

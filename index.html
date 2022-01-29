@@ -16,7 +16,7 @@
     <body>
         <header class="hero">
                 <h1>Ordena tu Pizza Ahora</h1>
-                <button class="hero-btn">Ordenar</button>
+                <button class="hero-btn" onclick="ordernar()">Ordenar</button>
                 <div class="hero-info" id="hero-info">
                     <h3 class="hero-leyenda">La mejor pizza que tu paladar podría probar</h3>
                 </div>
@@ -39,21 +39,21 @@
                             <h3>Pizza especial individual</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard2.jpg" alt="Pizza">
                             <h3>Pizza especial mediana</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard2.jpg" alt="Pizza">
                             <h3>Pizza especial familiar</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                     </div>
                 </div>
@@ -66,21 +66,21 @@
                             <h3>Pizza tradicional individual</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard.webp" alt="Pizza">
                             <h3>Pizza tradicional mediana</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard.webp" alt="Pizza">
                             <h3>Pizza tradicional familiar</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                     </div>
                 </div>
@@ -93,21 +93,21 @@
                             <h3>Pizza de la casa individual </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard3.jpg" alt="Pizza">
                             <h3>Pizza de la casa mediana </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                         <div class="menu">
                             <img src="imagenes/pizzaCard3.jpg" alt="Pizza">
                             <h3>Pizza de la casa familiar </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             <p>$</p>
-                            <button>Ordenar</button>
+                            <button onclick="ordernar()">Ordenar</button>
                         </div>
                     </div>
                 </div>
@@ -116,8 +116,28 @@
 
 
         <section class="novedades">
-            
+            <div class="novedades-container">
+                <div class="novedades-text">
+                    <div>
+                        <h3>¡NO TE QUEDES CON HAMBRE!</h3>
+                        <p>Vel quod, incidunt quisquam distinctio sunt quidem unde facere sit dignissimos voluptatibus illo mollitia rerum magnam molestiae architecto aperiam modi ipsam dolorum.</p>
+                        <button class="novedades-btn" onclick="ordernar()">Ordenar</button>
+                    </div>
+                    <img src="imagenes/hamburguesa.png" alt="Hamburguesa">
+                </div>
+            </div>
         </section>
+
+
+        <footer> 
+            <h2>¡VISITANOS!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div>
+                <i class="bi bi-whatsapp"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+            </div>
+        </footer>
 
         <script src="js/index.js"></script>
     </body>
